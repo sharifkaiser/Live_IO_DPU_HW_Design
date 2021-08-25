@@ -1,0 +1,12 @@
+sv xil_defaultlib --include "/media/avt/UbuntuExt/tools/tools/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../zcu104_custom_platform.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../zcu104_custom_platform.gen/sources_1/bd/system/ipshared/da1e/hdl" --include "../../../../zcu104_custom_platform.gen/sources_1/bd/system/ipshared/d0f7" \
+"../../../bd/system/ip/system_zynq_ultra_ps_e_0_0/sim/system_zynq_ultra_ps_e_0_0_stub.sv" \
+
+verilog xil_defaultlib --include "/media/avt/UbuntuExt/tools/tools/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../zcu104_custom_platform.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../zcu104_custom_platform.gen/sources_1/bd/system/ipshared/da1e/hdl" --include "../../../../zcu104_custom_platform.gen/sources_1/bd/system/ipshared/d0f7" \
+"../../../bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0.v" \
+"../../../bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" \
+"../../../bd/system/sim/system.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

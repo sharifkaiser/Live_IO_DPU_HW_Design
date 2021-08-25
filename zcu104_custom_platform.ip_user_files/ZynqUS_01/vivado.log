@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Aug 20 13:54:57 2021
+# Process ID: 13624
+# Current directory: C:/Daten/ESG/VDMA/Sim/ZynqUS_01
+# Command line: vivado.exe -mode batch -source ProjectGeneration.tcl -notrace
+# Log file: C:/Daten/ESG/VDMA/Sim/ZynqUS_01/vivado.log
+# Journal file: C:/Daten/ESG/VDMA/Sim/ZynqUS_01\vivado.jou
+#-----------------------------------------------------------
+source ProjectGeneration.tcl -notrace
+WARNING: [Project 1-697] Production Evaluation speedfiles are provided in advance of production release and are intended to closely approximate production level performance.
+Once production speedfiles become available, the design will need to be rerun with the production speedfiles.
+WARNING: [Coretcl 2-176] No IPs found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Entwicklung/Vivado/2016.4/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'fps_count01_c_counter_binary_v12_0_i0' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+create_ip: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 417.945 ; gain = 174.770
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fps_count01_c_counter_binary_v12_0_i0' to 'fps_count01_c_counter_binary_v12_0_i0' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'fps_count01_c_counter_binary_v12_0_i1' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fps_count01_c_counter_binary_v12_0_i1' to 'fps_count01_c_counter_binary_v12_0_i1' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'fps_count01_c_counter_binary_v12_0_i2' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fps_count01_c_counter_binary_v12_0_i2' to 'fps_count01_c_counter_binary_v12_0_i2' is not allowed and is ignored.
+IP Repository Located at : C:/Entwicklung/Vivado/2016.4/data/ip
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-697] Production Evaluation speedfiles are provided in advance of production release and are intended to closely approximate production level performance.
+Once production speedfiles become available, the design will need to be rerun with the production speedfiles.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Entwicklung/Vivado/2016.4/data/ip'.
+Adding File c:/Daten/ESG/VDMA/Sim/ZynqUS_01/ip_catalog/fps_count01.srcs/sources_1/ip/fps_count01_c_counter_binary_v12_0_i0/fps_count01_c_counter_binary_v12_0_i0.xci
+Adding File c:/Daten/ESG/VDMA/Sim/ZynqUS_01/ip_catalog/fps_count01.srcs/sources_1/ip/fps_count01_c_counter_binary_v12_0_i1/fps_count01_c_counter_binary_v12_0_i1.xci
+Adding File c:/Daten/ESG/VDMA/Sim/ZynqUS_01/ip_catalog/fps_count01.srcs/sources_1/ip/fps_count01_c_counter_binary_v12_0_i2/fps_count01_c_counter_binary_v12_0_i2.xci
+Adding File C:/Daten/ESG/VDMA/Sim/ZynqUS_01/sysgen/fps_count01.xdc
+Adding File C:/Daten/ESG/VDMA/Sim/ZynqUS_01/sysgen/fps_count01.htm
+INFO: [IP_Flow 19-1793] Cannot infer any bus interface that matches bus definition xilinx.com:interface:aximm:1.0.
+INFO: [IP_Flow 19-1793] Cannot infer any bus interface that matches bus definition xilinx.com:interface:aximm:1.0.
+INFO: [IP_Flow 19-1793] Cannot infer any bus interface that matches bus definition xilinx.com:interface:axis:1.0.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Daten/ESG/VDMA/Sim/ZynqUS_01/ip'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Daten/ESG/VDMA/Sim/ZynqUS_01/ip' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Daten/ESG/VDMA/Sim/ZynqUS_01/ip_catalog'.)
+0
+Wrote  : <C:/Daten/ESG/VDMA/Sim/ZynqUS_01/ip_catalog/fps_count01.srcs/sources_1/bd/fps_count01_bd/fps_count01_bd.bd> 
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /fps_count01_1/*'
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /fps_count01_1/*'
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /fps_count01_1/*'
+Wrote  : <C:/Daten/ESG/VDMA/Sim/ZynqUS_01/ip_catalog/fps_count01.srcs/sources_1/bd/fps_count01_bd/fps_count01_bd.bd> 
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 20 13:55:16 2021...

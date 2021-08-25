@@ -1,0 +1,4 @@
+zynq_ultra_ps_e_tlm.cpp,systemc,xil_defaultlib,../../../bd/system/ip/system_zynq_ultra_ps_e_0_0/sim_tlm/zynq_ultra_ps_e_tlm.cpp,
+system_zynq_ultra_ps_e_0_0_sc.cpp,systemc,xil_defaultlib,../../../bd/system/ip/system_zynq_ultra_ps_e_0_0/sim/system_zynq_ultra_ps_e_0_0_sc.cpp,
+system_zynq_ultra_ps_e_0_0.cpp,systemc,xil_defaultlib,../../../bd/system/ip/system_zynq_ultra_ps_e_0_0/sim/system_zynq_ultra_ps_e_0_0.cpp,
+glbl.v,Verilog,xil_defaultlib,glbl.v

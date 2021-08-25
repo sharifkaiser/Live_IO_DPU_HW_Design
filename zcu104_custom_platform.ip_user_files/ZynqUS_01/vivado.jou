@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Aug 20 13:54:57 2021
+# Process ID: 13624
+# Current directory: C:/Daten/ESG/VDMA/Sim/ZynqUS_01
+# Command line: vivado.exe -mode batch -source ProjectGeneration.tcl -notrace
+# Log file: C:/Daten/ESG/VDMA/Sim/ZynqUS_01/vivado.log
+# Journal file: C:/Daten/ESG/VDMA/Sim/ZynqUS_01\vivado.jou
+#-----------------------------------------------------------
+source ProjectGeneration.tcl -notrace
