@@ -14,3 +14,9 @@ The tentative flow of the application:
 
 **IDE/software**:
 Vivado from Xilinx 2020.2
+
+** Contributors **
+1. A K M Sharif Kaiser (student)
+2. Dr. Jörg Pospiech (supervisor)
+3. Dr. Streitferdt (supervisor)
+
