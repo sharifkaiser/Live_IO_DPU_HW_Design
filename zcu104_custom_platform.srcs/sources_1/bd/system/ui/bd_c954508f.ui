@@ -1,7 +1,7 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"0.965457",
-   "Default View_TopLeft":"-90,-40",
+   "Default View_TopLeft":"119,-30",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
 #  -string -flagsOSRD
@@ -12,25 +12,16 @@ preplace inst proc_sys_reset_2 -pg 1 -lvl 2 -x 600 -y 380 -defaultsOSRD
 preplace inst proc_sys_reset_3 -pg 1 -lvl 2 -x 600 -y 740 -defaultsOSRD
 preplace inst axi_intc_0 -pg 1 -lvl 4 -x 1510 -y 180 -defaultsOSRD
 preplace inst ps8_0_axi_periph -pg 1 -lvl 3 -x 1150 -y 140 -defaultsOSRD
-preplace inst axi_vdma_0 -pg 1 -lvl 3 -x 1150 -y 440 -defaultsOSRD
-preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 1510 -y 470 -defaultsOSRD
-preplace inst vcu_ddr4_controller_0 -pg 1 -lvl 1 -x 100 -y 150 -defaultsOSRD
-preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 -70 0 NJ 0 920
-preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 3 -60 390 240 20 910
-preplace netloc clk_wiz_0_locked 1 1 1 250 420n
-preplace netloc proc_sys_reset_2_peripheral_aresetn 1 2 2 930 290 1360J
-preplace netloc axi_intc_0_irq 1 1 4 270 -20 NJ -20 NJ -20 1670
-preplace netloc clk_wiz_0_clk400 1 1 1 230 510n
-preplace netloc clk_wiz_0_clk100 1 1 3 230 10 950 280 1350
-preplace netloc clk_wiz_0_clk200 1 1 3 260 280 940 600 1350
-preplace netloc ARESETN_1 1 2 2 920J 590 1360
-preplace netloc ps8_0_axi_periph_M00_AXI 1 3 1 1360 130n
-preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 2 1 930 60n
-preplace netloc axi_interconnect_0_M00_AXI 1 1 4 280 -10 NJ -10 NJ -10 1660
-preplace netloc axi_vdma_0_M_AXI_MM2S 1 3 1 N 380
-preplace netloc axi_vdma_0_M_AXI_S2MM 1 3 1 N 400
-preplace netloc ps8_0_axi_periph_M01_AXI 1 2 2 960 300 1340
-preplace netloc axi_vdma_0_M_AXIS_MM2S 1 2 2 960 580 1340
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 -70 0 NJ 0 900
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 3 -60 390 210 20 890
+preplace netloc clk_wiz_0_clk_out1 1 1 1 220 450n
+preplace netloc clk_wiz_0_clk_out2 1 1 3 200 200 910 20 1300
+preplace netloc clk_wiz_0_clk_out3 1 1 1 200 490n
+preplace netloc clk_wiz_0_locked 1 1 1 230 420n
+preplace netloc proc_sys_reset_2_peripheral_aresetn 1 2 2 920 290 1290J
+preplace netloc axi_intc_0_irq 1 1 4 230 -20 NJ -20 NJ -20 1610
+preplace netloc ps8_0_axi_periph_M00_AXI 1 3 1 1290 140n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 2 1 920 80n
 levelinfo -pg 1 -90 100 600 1150 1510 1690
 pagesize -pg 1 -db -bbox -sgen -90 -80 1690 1620
 "
